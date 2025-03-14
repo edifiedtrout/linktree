@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Unbounded:wght@600&display=swap');
+
+* {
+    font-family: "Cabin", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(./wallpaperflare.com_wallpaper\ \(3\).jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+header img {
+    border-radius: 50%;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 12px;
+    font-size: large;
+    color: white;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: white;
+}
+
+section {
+    display: grid;
+    justify-content: center;
+}
+
+.links a {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    text-decoration: none;
+    
+}
+
+.redes {
+    justify-content: center;
+    margin: 18px;
+    width: 400px;
+    height: 50px;
+    background-color: #fff;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    box-shadow: rgba(0, 0, 0, .2);
+}
+
+.redes:hover {
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    color: #fff;
+    transition: 0.5s;
+}
